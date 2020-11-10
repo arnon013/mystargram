@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mystagram</title>
+    <link rel="stylesheet" href="./index.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+</head>
+<body>
+    <h1>Mystagram</h1>
+    <div class="a">
+        <input type="text" class="search" placeholder="Seach photos">
+    </div>
+   <br>
+    <div class="controls">
+        <label for="spacing">SPACING</label>
+        <input 
+        id="spacing"
+        type="range"
+        name="spacing"
+        min="0"
+        max="100"
+        value="10"
+        data-sizing="px" />
+
+        <label for="Blur">BLUR</label>
+        <input 
+        id="blur"
+        type="range"
+        name="blur"
+        min="0"
+        max="25"
+        value="10"
+        data-sizing="px" />
+
+        <label for="color">COLOR</label>
+        <input 
+        id="color"
+        type="color"
+        name="base"
+        value="#000000"
+         />
+        <div class="mode">
+        <input type="checkbox" class="checkbox" id="checkbox"/>
+        <label for="checkbox" class="label">
+            <i class="fas "></i>
+            <i class="fas fa-moon"></i>
+            <div class="ball"></div>
+        </label>
+    </div>
+    </div> 
+    <br><br>
+    <div class ="garally" > 
+        <script src="./index.js"></Script>
+    </div>
+</body>
+</html>
